@@ -13,6 +13,11 @@
 		4614378C1CB4E7E200641C04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4614378A1CB4E7E200641C04 /* Main.storyboard */; };
 		4614378E1CB4E7E200641C04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4614378D1CB4E7E200641C04 /* Assets.xcassets */; };
 		461437911CB4E7E200641C04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4614378F1CB4E7E200641C04 /* LaunchScreen.storyboard */; };
+		4614379A1CB4E87700641C04 /* oneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 461437991CB4E87700641C04 /* oneViewController.m */; };
+		4614379D1CB4E88700641C04 /* twoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4614379C1CB4E88700641C04 /* twoViewController.m */; };
+		461437A01CB4E89300641C04 /* threeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4614379F1CB4E89300641C04 /* threeViewController.m */; };
+		461437A31CB4E8A000641C04 /* fourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 461437A21CB4E8A000641C04 /* fourViewController.m */; };
+		461437A61CB4E8BD00641C04 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 461437A51CB4E8BD00641C04 /* TabBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		4614378D1CB4E7E200641C04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		461437901CB4E7E200641C04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		461437921CB4E7E200641C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		461437981CB4E87700641C04 /* oneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oneViewController.h; sourceTree = "<group>"; };
+		461437991CB4E87700641C04 /* oneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oneViewController.m; sourceTree = "<group>"; };
+		4614379B1CB4E88700641C04 /* twoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twoViewController.h; sourceTree = "<group>"; };
+		4614379C1CB4E88700641C04 /* twoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twoViewController.m; sourceTree = "<group>"; };
+		4614379E1CB4E89300641C04 /* threeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threeViewController.h; sourceTree = "<group>"; };
+		4614379F1CB4E89300641C04 /* threeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = threeViewController.m; sourceTree = "<group>"; };
+		461437A11CB4E8A000641C04 /* fourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fourViewController.h; sourceTree = "<group>"; };
+		461437A21CB4E8A000641C04 /* fourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fourViewController.m; sourceTree = "<group>"; };
+		461437A41CB4E8BD00641C04 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		461437A51CB4E8BD00641C04 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +75,18 @@
 			children = (
 				461437841CB4E7E200641C04 /* AppDelegate.h */,
 				461437851CB4E7E200641C04 /* AppDelegate.m */,
+				461437A41CB4E8BD00641C04 /* TabBarViewController.h */,
+				461437A51CB4E8BD00641C04 /* TabBarViewController.m */,
 				461437871CB4E7E200641C04 /* ViewController.h */,
 				461437881CB4E7E200641C04 /* ViewController.m */,
+				461437981CB4E87700641C04 /* oneViewController.h */,
+				461437991CB4E87700641C04 /* oneViewController.m */,
+				4614379B1CB4E88700641C04 /* twoViewController.h */,
+				4614379C1CB4E88700641C04 /* twoViewController.m */,
+				4614379E1CB4E89300641C04 /* threeViewController.h */,
+				4614379F1CB4E89300641C04 /* threeViewController.m */,
+				461437A11CB4E8A000641C04 /* fourViewController.h */,
+				461437A21CB4E8A000641C04 /* fourViewController.m */,
 				4614378A1CB4E7E200641C04 /* Main.storyboard */,
 				4614378D1CB4E7E200641C04 /* Assets.xcassets */,
 				4614378F1CB4E7E200641C04 /* LaunchScreen.storyboard */,
@@ -150,8 +175,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				461437891CB4E7E200641C04 /* ViewController.m in Sources */,
+				461437A31CB4E8A000641C04 /* fourViewController.m in Sources */,
 				461437861CB4E7E200641C04 /* AppDelegate.m in Sources */,
 				461437831CB4E7E200641C04 /* main.m in Sources */,
+				461437A61CB4E8BD00641C04 /* TabBarViewController.m in Sources */,
+				461437A01CB4E89300641C04 /* threeViewController.m in Sources */,
+				4614379A1CB4E87700641C04 /* oneViewController.m in Sources */,
+				4614379D1CB4E88700641C04 /* twoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

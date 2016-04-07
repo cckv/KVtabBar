@@ -7,16 +7,31 @@
 //
 
 #import "AppDelegate.h"
-
+#import "TabBarViewController.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
+/**
+ * 动态的加载tabbar （注意系统自带的tabbar最多只能有5个item）
+ * 方案一：从服务器获取一个数组这个数组中存储着tabbar的item模型（名字、图片名、子控制器类型）
+ * 方案二：从服务器获取一个JSON数据，解析JSON数据，根据该数据来设置tabbar
+ */
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    // 这里抽取一个工具类，来实现这个逻辑操作。
+    TabBarViewController *tabVc = [[TabBarViewController alloc]init];
+    
+    tabVc.titleArr = @[@"1",@"2",@"1",@"2",@"1",@"2"];
+
+    self.window.rootViewController = tabVc;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
